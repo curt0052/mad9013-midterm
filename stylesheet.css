@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+* {
+    font-family: 'Dosis', sans-serif;
+}
+.wrapper {
+    background-color: #5E4E75;
+    color: #F2E9FF;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+.masthead {
+    background-image: url("img/img1.jpg");
+    background-size: cover;
+    color:#F2E9FF;
+    text-shadow: 2px -2px #5E4E75;
+    border-top: 2rem solid #5E4E75;
+    background-position: 20% 30%;
+}
+.mainnav a {
+    text-decoration: none;
+    color: #F2E9FF;
+}
+.mainnav a:hover {
+    color:#A66AFF;
+}
+.primary {
+    background-color: #53357F;
+}
+.side {
+    background-color: #53357F;
+}
+
+@media (max-width:35em) {
+    * {
+        width:90%;
+        margin: 0 auto;
+        padding-bottom: 1rem;
+    }
+    .mainnav ul {
+        list-style: none;
+    }
+}
+@media (min-width:35em) and (max-width:60em) {
+    .wrapper {
+        padding:0 2rem;
+        align-content: center;
+    }
+    .masthead {
+        text-align: center;
+        width:100%;
+        font-size: 2rem;
+    }
+    .mainnav {
+        font-size: 30px;
+    }
+    .mainnav ul {
+        list-style: none;
+    }
+    .mainnav li {
+        float:left;
+        width:25%;
+    }
+    .content {
+        padding:0 2rem;
+    }
+    .primary {
+        float: left;
+        width: 63%;
+        margin: 0 auto;
+    }
+    .primary h2 {
+        font-size: 30px;
+    }
+    .primary h3 {
+        font-size: 25px;
+    }
+    .side {
+        float: right;
+        width: 37%;
+        margin: 0 auto;
+    }
+    .side h3 {
+        font-size: 25px;
+    }
+    .footer {
+        clear:both;
+        float:none;
+        text-align: center;
+    }
+}
+@media (min-width:60em) {
+    * {
+        max-width:1600px;
+    }
+    .wrapper {
+        align-content: center;
+        padding: 0 2rem;
+        
+    }
+    .masthead {
+        text-align: center;
+        width:100%;
+        font-size:2.5em;
+        padding-top: 2rem;
+    }
+    .content {
+        padding:0 2rem;
+    }
+    .mainnav {
+        float:left;
+        width:25%;
+        margin: 0 auto;
+        clear:both;
+        background-image: url("img/img5.jpg");
+        background-size: cover;
+        height:100%;
+        border-right: 1rem solid #5E4E75;
+        font-size: 30px;
+    }
+    .mainnav ul {
+        list-style: none;
+    }
+    .primary {
+        float:left;
+        width:50%;
+        margin: 0 auto;
+        column-count: 2;
+        -webkit-column-count:2;
+    }
+    .primary h2 {
+        font-size: 30px;
+    }
+    .primary h3 {
+        font-size: 25px;
+    }
+    .side {
+        float:right;
+        width:25%;
+        margin: 0 auto;
+        clear:right;
+    }
+    .side h3 {
+        font-size: 25px;
+    }
+    .footer {
+        clear:both;
+        float:none;
+        text-align: center;
+    }
+    
+}
